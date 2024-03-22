@@ -12,7 +12,9 @@ int main()
     cout << "Ingrese el nombre del estudiante: ";
     getline(cin, nombre);
     fflush(stdin);
+    
     // Las notas deben estar entre 0 y 10.
+    // Talleres valen 25%, evaluaciones teoricas 35% y evaluaciones practicas 40%.
     // Ingresar las calificaciones del primer parcial
     cout << "Ingrese la calificacion del taller 1: ";
     cin >> taller;
